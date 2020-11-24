@@ -1,0 +1,14 @@
+target/
+metastore_db/
+metastore/
+*.class
+*.iml
+*.ipr
+*.iws
+.DS_Store
+derby.log
+
+.idea/
+/out/
+
+.idea_modules/
