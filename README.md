@@ -2,7 +2,7 @@
 
 ![](https://github.com/jswarburton/advent-of-code-2020/workflows/Python%20CI/badge.svg)
 
-Scala solutions for [Advent of Code](https://adventofcode.com/) 2020.
+Python solutions for [Advent of Code](https://adventofcode.com/) 2020. 🎄🎅
 
 For descriptions of the puzzles see the website.
 
