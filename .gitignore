@@ -12,3 +12,8 @@ derby.log
 /out/
 
 .idea_modules/
+
+.tox
+junit.xml
+.coverage
+*.pyc

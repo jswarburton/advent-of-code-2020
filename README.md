@@ -35,3 +35,8 @@ For descriptions of the puzzles see the website.
 | 23 |  |
 | 24 |  |
 | 25 |  |
+
+## Setting up local dev environment
+
+    conda create -n python3.9 python=3.9
+    conda activate python3.9
