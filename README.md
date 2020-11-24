@@ -1,6 +1,6 @@
 # Advent of Code 2020
 
-![](https://github.com/jswarburton/advent-of-code-2019/workflows/Scala%20CI/badge.svg)
+![](https://github.com/jswarburton/advent-of-code-2020/workflows/Python%20CI/badge.svg)
 
 Scala solutions for [Advent of Code](https://adventofcode.com/) 2020.
 
