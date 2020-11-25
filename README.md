@@ -40,3 +40,9 @@ For descriptions of the puzzles see the website.
 
     conda create -n python3.9 python=3.9
     conda activate python3.9
+
+## Running tests and checking formatting
+
+Tests and formatting checks can be run locally in the activated `conda` environment:
+
+    tox
