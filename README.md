@@ -1,6 +1,7 @@
 # Advent of Code 2020
 
 ![](https://github.com/jswarburton/advent-of-code-2020/workflows/Python%20CI/badge.svg)
+[![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
 Python solutions for [Advent of Code](https://adventofcode.com/) 2020. 🎄🎅
 
