@@ -41,6 +41,7 @@ For descriptions of the puzzles see the website.
 
     conda create -n python3.9 python=3.9
     conda activate python3.9
+    pip install -r test-requirements.txt
 
 ## Running tests and checking formatting
 
