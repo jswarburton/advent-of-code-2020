@@ -11,7 +11,7 @@ For descriptions of the puzzles see the website.
 
 | Day | Stars |
 |:--:|---|
-|  1 |  |
+|  1 | :star: :star: |
 |  2 |  |
 |  3 |  |
 |  4 |  |
