@@ -12,7 +12,7 @@ For descriptions of the puzzles see the website.
 | Day | Stars |
 |:--:|---|
 |  1 | :star: :star: |
-|  2 |  |
+|  2 | :star: :star: |
 |  3 |  |
 |  4 |  |
 |  5 |  |
