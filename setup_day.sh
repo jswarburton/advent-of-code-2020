@@ -7,11 +7,17 @@ then
   exit 1
 fi
 
-echo "Creating files for day $1"
+day=$1
 
-padded_date=$(printf "%02d" $1)
+echo "Creating files for day $day"
 
-touch src/main/python/day_"${padded_date}".py
-touch src/test/python/day_"${padded_date}"_test.py
+padded_day=$(printf "%02d" ${day})
+
+sed -e "s/{{PADDED_DAY}}/${padded_day}/g" template/main_template.txt > src/main/python/day_"${padded_day}".py
+
+sed -e "s/{{PADDED_DAY}}/${padded_day}/g" template/test_template.txt > src/test/python/day_"${padded_day}"_test.py
+
+session=$(<.session)
+curl --cookie "session=${session}" https://adventofcode.com/2020/day/${day}/input -o src/main/resources/day${padded_day}-01.txt
 
 echo "Successfully created files"

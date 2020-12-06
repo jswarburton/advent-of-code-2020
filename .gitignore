@@ -18,3 +18,5 @@ junit.xml
 .coverage
 *.pyc
 cobertura.xml
+
+.session
