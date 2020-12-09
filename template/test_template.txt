@@ -1,15 +1,13 @@
 from day_{{PADDED_DAY}} import solve_1, solve_2
 
+input = [
+
+]
+
 
 def test_solve_1():
-    input = [
-
-    ]
     assert solve_1(input) == 1
 
 
 def test_solve_2():
-    input = [
-
-    ]
     assert solve_2(input) == 1

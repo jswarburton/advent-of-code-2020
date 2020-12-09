@@ -20,7 +20,7 @@ For descriptions of the puzzles see the website.
 |  7 | :star: :star: |
 |  8 | :star: :star: |
 |  9 | :star: :star: |
-| 10 |  |
+| 10 | :star: :star: |
 | 11 |  |
 | 12 |  |
 | 13 |  |
