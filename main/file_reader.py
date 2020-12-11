@@ -1,4 +1,4 @@
-def read(file_name: str, path: str = "src/main/resources") -> list:
+def read(file_name: str, path: str = "main/resources") -> list:
     output = []
     with open(f"{path}/{file_name}") as f:
         lines = f.readlines()

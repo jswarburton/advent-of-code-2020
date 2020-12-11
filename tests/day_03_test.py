@@ -1,4 +1,4 @@
-from day_03 import count_trees_hit, product_trees_hit
+from main.day_03 import count_trees_hit, product_trees_hit
 
 input = [
     "..##.......",

@@ -1,4 +1,4 @@
-from file_reader import read
+from main.file_reader import read
 
 
 def validate_passports(lines: list, validate_value: bool) -> int:

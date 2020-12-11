@@ -1,4 +1,4 @@
-from day_02 import (
+from main.day_02 import (
     char_count_password_validator,
     char_position_password_validator,
     count_valid_passwords,

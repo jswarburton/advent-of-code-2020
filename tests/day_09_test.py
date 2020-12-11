@@ -1,4 +1,4 @@
-from day_09 import solve_1, solve_2
+from main.day_09 import solve_1, solve_2
 
 input = [
     35,

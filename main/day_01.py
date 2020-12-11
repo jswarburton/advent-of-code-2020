@@ -1,4 +1,4 @@
-from file_reader import read
+from main.file_reader import read
 
 
 def find_2020_product(nums: list) -> int:

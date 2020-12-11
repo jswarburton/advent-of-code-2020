@@ -1,4 +1,4 @@
-from day_01 import find_2020_product, find_2020_triple_product
+from main.day_01 import find_2020_product, find_2020_triple_product
 
 
 def test_find_2020_product():

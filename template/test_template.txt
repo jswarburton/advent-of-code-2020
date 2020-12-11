@@ -1,4 +1,4 @@
-from day_{{PADDED_DAY}} import solve_1, solve_2
+from main.day_{{PADDED_DAY}} import solve_1, solve_2
 
 input = [
 

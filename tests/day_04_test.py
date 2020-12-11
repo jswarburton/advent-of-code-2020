@@ -1,4 +1,4 @@
-from day_04 import validate_passports
+from main.day_04 import validate_passports
 
 
 def test_all_required_fields_present():

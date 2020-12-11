@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-from file_reader import read
+from main.file_reader import read
 
 
 def solve_1(input: list) -> int:

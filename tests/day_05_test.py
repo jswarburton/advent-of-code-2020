@@ -1,4 +1,4 @@
-from day_05 import _calculate_row_id, find_highest_row_id
+from main.day_05 import _calculate_row_id, find_highest_row_id
 
 
 def test_calculate_row_id():

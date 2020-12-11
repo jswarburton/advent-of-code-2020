@@ -1,4 +1,4 @@
-from file_reader import read
+from main.file_reader import read
 
 
 def find_sum_in_preamble(target: int, preamble: list) -> bool:

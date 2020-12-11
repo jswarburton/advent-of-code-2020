@@ -1,4 +1,4 @@
-from file_reader import read
+from main.file_reader import read
 
 
 def count_anyone_in_group_answer_yes(input: list) -> int:

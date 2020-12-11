@@ -1,4 +1,4 @@
-from day_11 import solve_1, solve_2
+from main.day_11 import solve_1, solve_2
 
 input = [
     "L.LL.LL.LL",

@@ -1,4 +1,4 @@
-from file_reader import read
+from main.file_reader import read
 
 
 def _calculate_row_id(code: str) -> int:

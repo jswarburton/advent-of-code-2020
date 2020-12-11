@@ -1,4 +1,4 @@
-from day_08 import solve_1, solve_2
+from main.day_08 import solve_1, solve_2
 
 input = [
     "nop +0",

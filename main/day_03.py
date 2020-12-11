@@ -1,4 +1,4 @@
-from file_reader import read
+from main.file_reader import read
 
 
 def count_trees_hit(lines: list, right_gradient: int, down_gradient: int) -> int:
