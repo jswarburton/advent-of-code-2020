@@ -1,11 +1,6 @@
+from copy import deepcopy
+
 from main.file_reader import read
-
-
-def copy_grid(grid):
-    new_grid = []
-    for line in grid:
-        new_grid.append(line.copy())
-    return new_grid
 
 
 def solve_1(input: list) -> int:
@@ -15,7 +10,7 @@ def solve_1(input: list) -> int:
     num_cols = len(grid[0])
 
     while True:
-        new_grid = copy_grid(grid)
+        new_grid = deepcopy(grid)
 
         for row in range(num_rows):
             for col in range(num_cols):
@@ -59,7 +54,7 @@ def solve_2(input: list) -> int:
     num_cols = len(grid[0])
 
     while True:
-        new_grid = copy_grid(grid)
+        new_grid = deepcopy(grid)
 
         for row in range(num_rows):
             for col in range(num_cols):
