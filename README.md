@@ -35,7 +35,7 @@ For descriptions of the puzzles see the website.
 | 22 | :star: :star: |
 | 23 | :star: :star: |
 | 24 | :star: :star: |
-| 25 |  |
+| 25 | :star: |
 
 ## Setting up local dev environment
 
