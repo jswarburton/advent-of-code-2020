@@ -1,4 +1,5 @@
 import itertools
+import re
 
 from main.file_reader import read
 
@@ -43,6 +44,43 @@ def solve_1(input: list) -> int:
     return sum(1 for message in messages if message in possible_messages)
 
 
+def rec_generate_rules(rules, rule_num):
+    rule = rules[rule_num]
+    if '"' in rule:
+        return rule
+    for sub_rule in rule.split(" | "):
+        for num in sub_rule.split():
+            inner_rule = rec_generate_rules(rules, num)
+            if "|" in inner_rule:
+                inner_rule = f"({inner_rule})"
+            rule = rule.replace(num, inner_rule, 1)
+    rule = rule.replace(" ", "")
+    rules[rule_num] = rule
+    return rule
+
+
+def solve_2(input: list) -> int:
+    rules, messages = parse(input)
+
+    # Help from https://github.com/mariothedog/Advent-of-Code-2020/blob/main/Day%2019/day_19.py
+    rec_generate_rules(rules, "0")
+
+    rule_42 = rules["42"].replace('"', "")
+    rule_31 = rules["31"].replace('"', "")
+
+    pattern = (
+        f"^({rule_42})+"
+        "("
+        f"({rule_42}){{1}}({rule_31}){{1}}|"
+        f"({rule_42}){{2}}({rule_31}){{2}}|"
+        f"({rule_42}){{3}}({rule_31}){{3}}|"
+        f"({rule_42}){{4}}({rule_31}){{4}}"
+        ")$"
+    )
+
+    return len([1 for msg in messages if re.match(pattern, msg)]) + 1
+
+
 def parse(input: list) -> (list, list):
     rules = {}
     messages = []
@@ -65,3 +103,4 @@ def parse(input: list) -> (list, list):
 if __name__ == "__main__":
     input = read("day19-01.txt")
     print(solve_1(input))  # 220
+    print(solve_2(input))  # 439
