@@ -30,7 +30,7 @@ For descriptions of the puzzles see the website.
 | 17 | :star: :star: |
 | 18 | :star: :star: |
 | 19 | :star: :star: |
-| 20 | :star: |
+| 20 | :star: :star: |
 | 21 | :star: :star: |
 | 22 | :star: :star: |
 | 23 | :star: :star: |
